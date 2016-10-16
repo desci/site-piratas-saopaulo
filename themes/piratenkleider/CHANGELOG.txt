@@ -1,0 +1,55 @@
+Theme Piratenkleider 
+
+Changelog 
+(since version 3.2; Former changes look at github.com/Piratenkleider/)
+
+Version 3.2.5:
+* Bugfix: Small Screen Layout on Scapegoat Adaption
+* Bugfix: Video Embeds only on free spaced content links, not on real links
+* Bugfix: Color codes for business cards
+* Enhancement: Business Cards now show also local entries which contain the
+  fullname of the person.
+* Enhancement: New login screen
+* Removed old unused images
+
+Version 3.2.4:
+* Enhancement: CSS for shortcode bookmarks improved
+* Enhancement: CSS for Flaschenpost design: position of submenus improved for
+  old browser support (chrome 35.*)
+
+
+Version 3.2.3:
+* Workaround for Safaris bug on floating excerpts
+* Improved fixed header on scrolled text
+* Feature: Search form for scrolled text fixed
+* Feature: Added wp_editor() for textinput on bookmarks and allowed HTML
+* Constants: Default value for displaying tags and categories on startpage set 
+  to 0
+
+
+Version 3.2.2:
+* Business cards can be printed out by a given order and by ids, like
+  this: [person listorder="4,7,2"]
+* Bugfix: German translation for show/hide
+* Bugfix: Sanitizing values on business cards
+* Feature: Symbol icon for wikis on url wiki.piratenbrandenburg.de
+* Feature: Body background changeable independend by current design; 
+  position and repeat configurable.
+
+Version 3.2.1:
+* Changed margins and sizes for headlines in content.
+* Changed sidebar background: Uses main background
+* Sticky-Class uses now standard class of Infoboxes
+
+Version 3.2.0:
+* Moved templates into a new directory templates.
+* Changed language in PHP files to english and added german language files;
+  Removed former american-english translation file.
+* Notice: Former called "linktipps" will be renamed in "bookmarks" for english
+  texts.
+* Bugfix: custom-fields.php: fixed entries with wrong language domain. 
+* Removed 'first-teaser-widget-area' (widget instead of slider on start page).
+* Removed Teaser widget (widget instead of teaserlinks on start page).
+* Removed Bulgarian language files, cause they dont match anymore to new
+  base language in theme.
+
